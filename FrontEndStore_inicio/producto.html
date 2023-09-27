@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub&family=Staatliches&display=swap" rel="stylesheet">">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosostros</a>
+    </nav>
+
+    <main class="contenedor">
+            <h1>React JS</h1>
+    </main>
+
+    <div class="camisa">
+        <img class="camisa__imagen" src="img/3.jpg" alt="imagen del Producto">
+
+        <div class="camisa__contenido">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in vulputate neque, nec interdum felis. Fusce leo urna, pretium eget metus sed, placerat tristique ligula. Nullam nec mauris ac arcu congue interdum. Nullam ullamcorper risus vel lacus lacinia, quis sagittis ipsum tempus. In nec tristique libero.</p>
+            <form class="formulario">
+                <select class="formulario__campo">
+                    <option disabled selected>-- Seleccionar Talla --</option>
+                    <option>Chica</option>
+                    <option>Mediana</option>
+                    <option>Grande</option>
+                </select>
+                <input class="formulario__campo" type="number" placeholder="Cantidad" min="1" >
+                <input class="formulario__submit" type="submit" value="agregar al carrito">
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos Reservados 2023.</p> 
+    </footer>
+
+</body>
+</html>
